@@ -4,7 +4,8 @@
   "description": "Multi platform react ui lib",
   "author": "woba6255 <vova6255@gmail.com>",
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "source": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,8 +15,9 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "storybook": "start-storybook -c web-stories/config",
-    "build-storybook": "build-storybook -c web-stories/config"
+    "storybook": "start-storybook -p 7007",
+    "build-storybook": "build-storybook",
+    "dev": "microbundle -w --jsx React.createElement"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -32,6 +34,7 @@
     "@storybook/react": "^6.3.2",
     "@storybook/react-native": "^5.3.25",
     "@storybook/react-native-server": "^5.3.23",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "microbundle": "^0.13.3"
   }
 }

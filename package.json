@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "init": "lerna bootstrap && lerna run postInstall",
+    "initial": "lerna bootstrap && lerna run postInstall",
     "boo": "lerna bootstrap",
     "dev:all": "lerna run dev --parallel --stream"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
-  }
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {}
 }
