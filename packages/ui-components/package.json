@@ -1,0 +1,30 @@
+{
+  "name": "@mono/ui-components",
+  "version": "0.0.1",
+  "description": "Multi platform react ui lib",
+  "author": "woba6255 <vova6255@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "17.0.2",
+    "react-native": "^0.64.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-links": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/react": "^5.3.14"
+  }
+}
