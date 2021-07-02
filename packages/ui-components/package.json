@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Multi platform react ui lib",
   "author": "woba6255 <vova6255@gmail.com>",
-  "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -14,7 +13,9 @@
     "lib"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "storybook": "start-storybook -c web-stories/config",
+    "build-storybook": "build-storybook -c web-stories/config"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -22,9 +23,15 @@
     "react-native": "^0.64.2"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.3.14",
-    "@storybook/addon-links": "^5.3.14",
-    "@storybook/addons": "^5.3.14",
-    "@storybook/react": "^5.3.14"
+    "@babel/core": "^7.14.6",
+    "@storybook/addon-actions": "^5.3",
+    "@storybook/addon-knobs": "^5.3",
+    "@storybook/addon-links": "^5.3",
+    "@storybook/addon-ondevice-actions": "^5.3.23",
+    "@storybook/addon-ondevice-knobs": "^5.3.25",
+    "@storybook/react": "^6.3.2",
+    "@storybook/react-native": "^5.3.25",
+    "@storybook/react-native-server": "^5.3.23",
+    "babel-loader": "^8.2.2"
   }
 }

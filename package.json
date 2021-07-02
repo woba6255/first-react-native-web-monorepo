@@ -6,5 +6,8 @@
     "init": "lerna bootstrap && lerna run postInstall",
     "boo": "lerna bootstrap",
     "dev:all": "lerna run dev --parallel --stream"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }
