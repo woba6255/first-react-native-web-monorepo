@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Multi platform react ui lib",
   "author": "woba6255 <vova6255@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "main": "dist/index.js",
   "source": "lib/index.js",
   "directories": {

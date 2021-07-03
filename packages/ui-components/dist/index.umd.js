@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(require("react")):"function"==typeof define&&define.amd?define(["react"],t):t((e||self).react)}(this,function(e){function t(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var n=t(e);function o(e){return n.default.createElement("button",{onClick:e.onClick},e.children)}module.exports={Button:function(e){return n.default.createElement(o,{onClick:e.onClick},e.children)}}});
+//# sourceMappingURL=index.umd.js.map
