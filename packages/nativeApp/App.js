@@ -72,7 +72,7 @@ const App: () => Node = () => {
                 <View>
                     <Section>
                         <Text>@mono/ui-components Button</Text>
-                        <Button>test</Button>
+                        <Button></Button>
                     </Section>
                 </View>
             </ScrollView>

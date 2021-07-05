@@ -4,8 +4,12 @@
   "description": "Multi platform react ui lib",
   "author": "woba6255 <vova6255@gmail.com>",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "source": "lib/index.js",
+  "publishConfig": {
+    "main": "dist/index.js",
+    "source": "lib/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"

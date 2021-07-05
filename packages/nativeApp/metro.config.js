@@ -13,18 +13,13 @@ const path = require('path')
   */
 
 
-const monoPath = path.resolve(__dirname + '/..')
-const extraNodeModules = {
-  '@mono': monoPath
-};
+const monoPath = path.resolve(__dirname + '/../ui-components')
+
 const watchFolders = [
   monoPath
 ];
 
 module.exports = {
-  resolver: {
-    extraNodeModules,
-  },
   watchFolders,
   transformer: {
     getTransformOptions: async () => ({

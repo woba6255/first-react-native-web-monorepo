@@ -10,7 +10,7 @@ function App() {
                 <p>
                     Lets see you @mono/ui-components button:
                 </p>
-                <Button>ОМЕГА БАТОН</Button>
+                <Button></Button>
             </header>
         </div>
     );
