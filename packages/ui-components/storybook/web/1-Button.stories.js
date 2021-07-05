@@ -1,7 +1,7 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
 
-import Button from "../../lib/button";
+import { Button } from "../../lib/index";
 
 export default {
   title: "Button",
@@ -9,7 +9,7 @@ export default {
 };
 
 export const Text = () => (
-  <Button onClick={action("clicked")}>Hello Button</Button>
+  <Button onClick={action("clicked")}></Button>
 );
 
 export const Button1 = () => (

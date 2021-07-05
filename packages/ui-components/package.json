@@ -1,35 +1,31 @@
 {
   "name": "@mono/ui-components",
   "version": "0.0.1",
-  "description": "Multi platform react ui lib",
-  "author": "woba6255 <vova6255@gmail.com>",
-  "license": "MIT",
+  "private": true,
   "main": "lib/index.js",
   "source": "lib/index.js",
   "publishConfig": {
     "main": "dist/index.js",
     "source": "lib/index.js"
   },
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "storybook": "start-storybook -p 7007",
-    "build-storybook": "build-storybook",
+    "test": "jest",
+    "lint": "eslint .",
+    "sb:android": "react-native run-android",
+    "sb:ios": "react-native run-ios",
+    "sb:native": "react-native start",
+    "sb:web": "start-storybook -p 7007",
     "dev": "microbundle -w --jsx React.createElement"
+
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "17.0.2",
-    "react-native": "^0.64.2"
+    "react": "17.0.1",
+    "react-native": "0.64.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.6",
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
     "@storybook/addon-actions": "^5.3",
     "@storybook/addon-knobs": "^5.3",
     "@storybook/addon-links": "^5.3",
@@ -37,8 +33,16 @@
     "@storybook/addon-ondevice-knobs": "^5.3.25",
     "@storybook/react": "^6.3.2",
     "@storybook/react-native": "^5.3.25",
-    "@storybook/react-native-server": "^5.3.23",
+    "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.2",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-dom": "17.0.1",
+    "react-test-renderer": "17.0.1",
     "microbundle": "^0.13.3"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }
