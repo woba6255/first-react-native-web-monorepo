@@ -5,9 +5,9 @@
   "scripts": {
     "boo": "lerna bootstrap",
     "dev:all": "lerna run dev --stream  --parallel",
-    "dev:all:ios": "echo \"ios not now(can run from package\"",
+    "dev:all:ios": "echo \"ios not now(can run from package)\"",
     "sb:web": "lerna run --scope @mono/ui-components sb:web",
-    "sb:native": "lerna run --scope @mono/ui-components sb:native"
+    "sb:android": "lerna run --scope @mono/ui-components sb:android"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
