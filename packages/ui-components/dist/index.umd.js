@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports,require("react")):"function"==typeof define&&define.amd?define(["exports","react"],t):t((e||self).uiComponents={},e.react)}(this,function(e,t){function n(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var o=n(t);function i(e){return o.default.createElement("button",{onClick:e.onClick},e.children)}e.Button=function(e){var t=e.children;return o.default.createElement(i,{onClick:e.onClick,style:!0},void 0===t?"ОМЕГА БАТОН":t)}});
+//# sourceMappingURL=index.umd.js.map
